@@ -1,4 +1,12 @@
 header {
   height: 60px;
-  background-color: #73CAB6;
+  background-color: #3BB9B0;
+  color: #F9F7F7;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+
+header > a {
+  margin-left: 1.5rem;
 }

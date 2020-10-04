@@ -1,14 +1,17 @@
 /* From JS30 */
 html {
   font-size: 16px;
-  /* background: url('https://i.imgur.com/b9r5sEL.jpg') bottom center;
-  background-size: cover; */
 }
 
 body,html {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
+  background-color: #F9F7F7;
+}
+
+h1 {
+  color: #233554;
+  font-size: 2.5rem;
+  margin: 1.8rem 0;
 }
 
 .keys {
@@ -21,7 +24,7 @@ body,html {
 }
 
 .key {
-  border: .25rem solid black;
+  border: .25rem solid #233554;
   border-radius: .5rem;
   margin: 1rem;
   padding: 1rem .3rem;
@@ -29,7 +32,7 @@ body,html {
   width: 6rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.5);
+  background: rgba(35,53,84,0.8);
   text-shadow: 0 0 .5rem black;
 }
 
@@ -42,13 +45,14 @@ body,html {
 kbd {
   display: block;
   font-size: 1.4rem;
+  padding-bottom: 0.2rem;
 }
 
 .sound {
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #EAE8E5;
 }
 
 .content-container {

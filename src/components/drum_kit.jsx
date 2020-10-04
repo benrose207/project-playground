@@ -12,8 +12,15 @@ import tom from '../assets/sounds/tom.wav';
 const DrumKit = () => {
 
   const playSound = (e) => {
-    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    let audio, key;
+    if (e.keyCode) {
+      audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+      key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    } else if (e.currentTarget.className === 'key') {
+      audio = document.querySelector(`audio[data-key="${e.currentTarget.dataset.key}"]`);
+      key = e.currentTarget;
+    }
+
     if (audio) {
       audio.currentTime = 0;
       audio.play();
@@ -30,10 +37,19 @@ const DrumKit = () => {
   useEffect(() => {
     window.addEventListener('keydown', playSound);
 
-    const keys = document.querySelectorAll('.key');
-    keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+    // const keys = document.querySelectorAll('.key');
+    // keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
-    return () => window.removeEventListener('keydown', playSound);
+    const keysContainer = document.querySelector('.keys');
+    keysContainer.addEventListener('transitionend', removeTransition);
+
+    const keys = document.querySelectorAll('.key');
+    keys.forEach(key => key.addEventListener('click', playSound));
+
+    return () => {
+      window.removeEventListener('keydown', playSound);
+      keys.forEach(key => key.removeEventListener('click', playSound));
+    }
   });
 
   return (
