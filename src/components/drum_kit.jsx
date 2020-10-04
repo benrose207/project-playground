@@ -17,13 +17,13 @@ const DrumKit = () => {
     if (audio) {
       audio.currentTime = 0;
       audio.play();
-      key.classList.add('playing');
+      key.classList.add('emphasized');
     }
   };
 
   const removeTransition = (e) => {
     if (e.propertyName === 'transform') {
-      e.target.classList.remove('playing');
+      e.target.classList.remove('emphasized');
     }
   }
 
@@ -37,7 +37,8 @@ const DrumKit = () => {
   });
 
   return (
-    <>
+    <div className="content-container">
+      <h1>Day 1: Drum Kit</h1>
       <div className="keys">
         <div data-key="65" className="key">
           <kbd>A</kbd>
@@ -86,7 +87,7 @@ const DrumKit = () => {
       <audio data-key="74" src={snare}></audio>
       <audio data-key="75" src={tom}></audio>
       <audio data-key="76" src={tink}></audio>
-    </>
+    </div>
   );
 };
 

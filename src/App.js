@@ -1,13 +1,15 @@
 import React from 'react';
 import DrumKit from './components/drum_kit';
+import NavBar from './components/navigation/navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-      <DrumKit />
-    </div>
+    <>
+      <NavBar />
+      <main>
+        <DrumKit />
+      </main>
+    </>
   );
 }
 
