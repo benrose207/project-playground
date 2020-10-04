@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../assets/stylesheets/headers.css';
 
 const NavBar = () => {
   return (
     <header>
-      <a href="#">Project Playground</a>
+      <Link to="/javascript30">Project Playground</Link>
       <nav>
 
       </nav>

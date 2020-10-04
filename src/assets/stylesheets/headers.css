@@ -1,7 +1,7 @@
 header {
   height: 60px;
-  background-color: #3BB9B0;
-  color: #F9F7F7;
+  background-color: #233554;
+  color: white;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
@@ -9,4 +9,5 @@ header {
 
 header > a {
   margin-left: 1.5rem;
+  color: white;
 }

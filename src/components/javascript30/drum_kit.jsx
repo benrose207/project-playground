@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
-import clap from '../assets/sounds/clap.wav';
-import boom from '../assets/sounds/boom.wav';
-import hihat from '../assets/sounds/hihat.wav';
-import kick from '../assets/sounds/kick.wav';
-import openhat from '../assets/sounds/openhat.wav';
-import ride from '../assets/sounds/ride.wav';
-import snare from '../assets/sounds/snare.wav';
-import tink from '../assets/sounds/tink.wav';
-import tom from '../assets/sounds/tom.wav';
+import clap from '../../assets/sounds/clap.wav';
+import boom from '../../assets/sounds/boom.wav';
+import hihat from '../../assets/sounds/hihat.wav';
+import kick from '../../assets/sounds/kick.wav';
+import openhat from '../../assets/sounds/openhat.wav';
+import ride from '../../assets/sounds/ride.wav';
+import snare from '../../assets/sounds/snare.wav';
+import tink from '../../assets/sounds/tink.wav';
+import tom from '../../assets/sounds/tom.wav';
 
 const DrumKit = () => {
 
