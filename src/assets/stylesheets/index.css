@@ -60,6 +60,11 @@ kbd {
   flex-wrap: wrap;
 }
 
+.flex-row-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .content-container {
   width: 75%;
   margin: 5rem auto;

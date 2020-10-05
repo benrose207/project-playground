@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import drumKitImg from '../../assets/images/drum-kit.jpg';
 import '../../assets/stylesheets/javascript30.css';
 
@@ -19,7 +21,7 @@ const JavaScript30 = () => {
     const cards = document.querySelectorAll('.card-container');
     cards.forEach(card => card.addEventListener('click', slideIn));
 
-    const cardHeaders = document.querySelectorAll('.card-container h2');
+    const cardHeaders = document.querySelectorAll('.card-container .flex-row-between');
     cardHeaders.forEach(cardHeader => cardHeader.addEventListener('click', slideOut));
 
     return () => {
@@ -37,7 +39,10 @@ const JavaScript30 = () => {
             <img src={drumKitImg} alt="drum set"/>
           </picture>
           <div className="js30-day-card card-content">
-            <h2>Day 1: Drum Kit</h2>
+            <div className='flex-row-between'>
+              <h2>Day 1: Drum Kit</h2>
+              <FontAwesomeIcon icon={faAngleDown} />
+            </div>
             <Link to="/javascript30/1" className="button">View</Link>
           </div>
         </article>
