@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import drumKitImg from '../../assets/images/drum-kit.jpg';
 import '../../assets/stylesheets/javascript30.css';
+import Card from './card';
 
 const JavaScript30 = () => {
   const slideIn = (e) => {
@@ -34,18 +32,7 @@ const JavaScript30 = () => {
     <div className="content-container-grid">
       <h1>JavaScript30</h1>
       <section className="flex-wrap-container">
-        <article className="card-container">
-          <picture className="js30-day-card">
-            <img src={drumKitImg} alt="drum set"/>
-          </picture>
-          <div className="js30-day-card card-content">
-            <div className='flex-row-between'>
-              <h2>Day 1: Drum Kit</h2>
-              <FontAwesomeIcon icon={faAngleDown} />
-            </div>
-            <Link to="/javascript30/1" className="button">View</Link>
-          </div>
-        </article>
+        <Card img={drumKitImg} altText="drum set" title="Day 1: Drum Kit"/>
       </section>
     </div>
   )
