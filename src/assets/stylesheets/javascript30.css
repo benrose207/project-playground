@@ -2,13 +2,18 @@
   overflow: hidden;
   height: 13rem;
   width: 13rem;
+  border-radius: 8px;
+  transition: box-shadow ease 0.25s;
+}
+
+.card-container:hover {
+  box-shadow: 0 0 10px #383838;
 }
 
 .js30-day-card {
   height: 13rem;
   width: 13rem;
   display: flex;
-  border-radius: 8px;
 }
 
 picture.js30-day-card {
@@ -59,7 +64,7 @@ picture.js30-day-card:after {
 
 .button {
   background-color: #EFF2F1;
-  color: #023C40;
+  color: #383838;
   font-weight: 600;
   border-radius: 4px;
   padding: 0.6rem 0.5rem;
