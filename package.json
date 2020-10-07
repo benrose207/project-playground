@@ -2,6 +2,7 @@
   "name": "personal-projects",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://benrose207.github.io/project-playground",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-regular-svg-icons": "^5.15.1",
@@ -16,6 +17,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "react-axe": "^3.5.3"
   }
 }

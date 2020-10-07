@@ -1,11 +1,11 @@
 header {
   height: 60px;
-  background-color: #233554;
+  background-color: #347FC4;
   color: white;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 8px 20px rgba(1, 27, 29, 0.3);
 }
 
 header > a {

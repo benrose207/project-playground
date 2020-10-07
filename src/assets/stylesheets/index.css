@@ -1,17 +1,33 @@
-/* From JS30 */
+/* Colors 
+Rich Black: #023C40
+Twilight Lavender: #795162
+Steel Blue: #347FC4
+Middle Blue Green: #7CE8DC
+Magnolia: #F3F2FE (off-white)
+
+Cerulean Frost: #6B9AC4
+Medium Turquoise: #37D2CD
+Purple: #7105BE
+Cultured: #EFF2F1 (off-white)
+Maximum Yellow Red: #F4B942
+*/
+
+
 html {
   font-size: 16px;
 }
 
 body,html {
-  font-family: sans-serif;
-  background-color: #F9F7F7;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: #EFF2F1;
 }
 
 h1 {
-  color: #233554;
+  color: #7105BE;
+  /* color: #023C40; */
   font-size: 2.5rem;
   margin: 1.8rem 0;
+  font-weight: 500;
 }
 
 .keys {
@@ -24,7 +40,7 @@ h1 {
 }
 
 .key {
-  border: .25rem solid #233554;
+  border: .25rem solid #245a8d;
   border-radius: .5rem;
   margin: 1rem;
   padding: 1rem .3rem;
@@ -32,14 +48,15 @@ h1 {
   width: 6rem;
   text-align: center;
   color: white;
-  background: rgba(35,53,84,0.8);
+  background: rgb(38 87 136 / 80%);
+  /* background: rgba(2,60,64,0.8); */
   text-shadow: 0 0 .5rem black;
 }
 
 .emphasized {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #F4B942;
+  box-shadow: 0 0 1rem #F4B942;
 }
 
 kbd {
@@ -52,7 +69,7 @@ kbd {
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #EAE8E5;
+  color: white;
 }
 
 .flex-wrap-container {
