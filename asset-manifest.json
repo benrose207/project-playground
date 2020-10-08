@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/project-playground/static/css/main.ce0a8c52.chunk.css",
-    "main.js": "/project-playground/static/js/main.c62793ae.chunk.js",
-    "main.js.map": "/project-playground/static/js/main.c62793ae.chunk.js.map",
+    "main.css": "/project-playground/static/css/main.ee1b3c6c.chunk.css",
+    "main.js": "/project-playground/static/js/main.5dc233ca.chunk.js",
+    "main.js.map": "/project-playground/static/js/main.5dc233ca.chunk.js.map",
     "runtime-main.js": "/project-playground/static/js/runtime-main.a8abf3f1.js",
     "runtime-main.js.map": "/project-playground/static/js/runtime-main.a8abf3f1.js.map",
-    "static/js/2.060d152f.chunk.js": "/project-playground/static/js/2.060d152f.chunk.js",
-    "static/js/2.060d152f.chunk.js.map": "/project-playground/static/js/2.060d152f.chunk.js.map",
+    "static/js/2.7440a0f1.chunk.js": "/project-playground/static/js/2.7440a0f1.chunk.js",
+    "static/js/2.7440a0f1.chunk.js.map": "/project-playground/static/js/2.7440a0f1.chunk.js.map",
     "index.html": "/project-playground/index.html",
-    "precache-manifest.8849ee1643eb51ac7c92564d80b16e1f.js": "/project-playground/precache-manifest.8849ee1643eb51ac7c92564d80b16e1f.js",
+    "precache-manifest.b0bca998e824ac43e47d752c9a6d7884.js": "/project-playground/precache-manifest.b0bca998e824ac43e47d752c9a6d7884.js",
     "service-worker.js": "/project-playground/service-worker.js",
-    "static/css/main.ce0a8c52.chunk.css.map": "/project-playground/static/css/main.ce0a8c52.chunk.css.map",
-    "static/js/2.060d152f.chunk.js.LICENSE.txt": "/project-playground/static/js/2.060d152f.chunk.js.LICENSE.txt",
+    "static/css/main.ee1b3c6c.chunk.css.map": "/project-playground/static/css/main.ee1b3c6c.chunk.css.map",
+    "static/js/2.7440a0f1.chunk.js.LICENSE.txt": "/project-playground/static/js/2.7440a0f1.chunk.js.LICENSE.txt",
     "static/media/boom.wav": "/project-playground/static/media/boom.550be808.wav",
     "static/media/clap.wav": "/project-playground/static/media/clap.a6e86dd7.wav",
     "static/media/drum-kit.jpg": "/project-playground/static/media/drum-kit.eae0deb3.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a8abf3f1.js",
-    "static/js/2.060d152f.chunk.js",
-    "static/css/main.ce0a8c52.chunk.css",
-    "static/js/main.c62793ae.chunk.js"
+    "static/js/2.7440a0f1.chunk.js",
+    "static/css/main.ee1b3c6c.chunk.css",
+    "static/js/main.5dc233ca.chunk.js"
   ]
 }
