@@ -16,6 +16,8 @@ const JavaScript30 = () => {
   }
 
   useEffect(() => {
+    document.title = 'JavaScript30 | Ben Rose';
+
     const cards = document.querySelectorAll('.card-container');
     cards.forEach(card => card.addEventListener('click', slideIn));
 
