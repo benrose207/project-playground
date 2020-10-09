@@ -37,6 +37,7 @@ const JavaScript30 = () => {
       <section className="flex-wrap-container">
         <Card img={drumKitImg} altText="drum set" title="Day 1: Drum Kit" path="/javascript30/1"/>
         <Card img={clockImg} altText="css clock" title="Day 2: CSS + JS Clock" path="/javascript30/2"/>
+        <Card img={clockImg} altText="screenshot of filters for image" title="Day 3: Playing with CSS Variables and JS" path="/javascript30/3"/>
       </section>
     </div>
   )

@@ -85,3 +85,29 @@ kbd {
 .second-hand {
   height: 3px;
 }
+
+/* Day 2: Playing with CSS Variables and JS */
+
+:root {
+  --base: #245a8d;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+.controls input {
+  width: 100px;
+}
+
+.css-variable-img {
+  padding: var(--spacing);
+  background-color: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
+}

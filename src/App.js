@@ -6,6 +6,7 @@ import NavBar from './components/navigation/navbar';
 import JavaScript30 from './components/javascript30/javascript30';
 import DrumKit from './components/javascript30/drum_kit';
 import Clock from './components/javascript30/clock';
+import CSSVariables from './components/javascript30/css_variables';
 import Footer from './components/navigation/footer';
 
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route exact path="/javascript30" component={JavaScript30}/>
           <Route path="/javascript30/1" component={DrumKit}/>
           <Route path="/javascript30/2" component={Clock}/>
+          <Route path="/javascript30/3" component={CSSVariables}/>
         </Switch>
       </main>
       <Footer />

@@ -126,6 +126,7 @@ picture.js30-day-card:after {
   font-size: 1.25rem;
   width: 100%;
   padding: 1rem;
+  line-height: 1.2;
 }
 
 .slide-in {
