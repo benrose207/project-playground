@@ -34,7 +34,8 @@ const JavaScript30 = () => {
     <div className="content-container-grid">
       <h1>JavaScript30</h1>
       <section className="flex-wrap-container">
-        <Card img={drumKitImg} altText="drum set" title="Day 1: Drum Kit"/>
+        <Card img={drumKitImg} altText="drum set" title="Day 1: Drum Kit" path="/javascript30/1"/>
+        <Card img={drumKitImg} altText="css clock" title="Day 2: CSS + JS Clock" path="/javascript30/2"/>
       </section>
     </div>
   )

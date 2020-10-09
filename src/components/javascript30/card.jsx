@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
-const Card = ({ img, altText, title }) => {
+const Card = ({ img, altText, title, path }) => {
   return (
     <article className="card-container">
       <picture className="js30-day-card">
@@ -14,7 +14,7 @@ const Card = ({ img, altText, title }) => {
           <h2>{title}</h2>
           <FontAwesomeIcon icon={faAngleDown} />
         </div>
-        <Link to="/javascript30/1" className="button">View</Link>
+        <Link to={path} className="button">View</Link>
       </div>
     </article>
   );
