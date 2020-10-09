@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import hikeImg from '../../assets/images/mt_hoffmann2.JPG';
 
 const CSSVariables = () => {
   const [spacing, setSpacing] = useState(10);
   const [blur, setBlur] = useState(10);
-  const [color, setColor] = useState('#245a8d');
+  const [color, setColor] = useState('#7105BE');
 
   const handleUpdate = (e) => {
     const suffix = e.target.dataset.sizing || '';
@@ -55,12 +56,12 @@ const CSSVariables = () => {
           onChange={e => setColor(e.target.value)}
         />
       </div>
-
-      <img
-        src="https://source.unsplash.com/7bwQXzbF6KE/800x500"
-        alt="alt text"
-        className="css-variable-img"
-      />
+      <picture className="css-variable-img">
+        <img
+          src={hikeImg}
+          alt="view of Half Dome from Mt Hoffman in Yosemite National Park"
+        />
+      </picture>
     </div>
   );
 };

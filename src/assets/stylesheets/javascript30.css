@@ -89,23 +89,37 @@ kbd {
 /* Day 2: Playing with CSS Variables and JS */
 
 :root {
-  --base: #245a8d;
+  --base: #7105BE;
   --spacing: 10px;
   --blur: 10px;
 }
 
 .controls {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
 }
 
 .controls input {
-  width: 100px;
+  width: 100%;
+  margin: 0.3rem 0 1.2rem 0;
 }
 
 .css-variable-img {
+  width: 100%;
+  max-width: 850px;
+}
+
+.css-variable-img img {
   padding: var(--spacing);
   background-color: var(--base);
   filter: blur(var(--blur));
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  width: calc(100% - var(--spacing) * 2);
 }
 
 .hl {
