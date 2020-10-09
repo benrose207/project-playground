@@ -51,14 +51,14 @@ kbd {
 .clock {
   width: 18rem;
   height: 18rem;
-  border: 20px solid white;
+  border: 20px solid #7105BE;
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
   padding: 0.9rem;
   box-shadow:
     0 0 0 4px rgba(0,0,0,0.1),
-    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 0 3px #6305a7,
     inset 0 0 10px black,
     0 0 10px rgba(0,0,0,0.2);
 }
@@ -73,7 +73,11 @@ kbd {
 .hand {
   width: 50%;
   height: 6px;
-  background: black;
+  background: #383838;
   position: absolute;
   top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import drumKitImg from '../../assets/images/drum-kit.jpg';
+import clockImg from '../../assets/images/clock.jpg';
 import '../../assets/stylesheets/javascript30.css';
 import Card from './card';
 
@@ -35,7 +36,7 @@ const JavaScript30 = () => {
       <h1>JavaScript30</h1>
       <section className="flex-wrap-container">
         <Card img={drumKitImg} altText="drum set" title="Day 1: Drum Kit" path="/javascript30/1"/>
-        <Card img={drumKitImg} altText="css clock" title="Day 2: CSS + JS Clock" path="/javascript30/2"/>
+        <Card img={clockImg} altText="css clock" title="Day 2: CSS + JS Clock" path="/javascript30/2"/>
       </section>
     </div>
   )
