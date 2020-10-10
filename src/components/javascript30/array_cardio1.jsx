@@ -29,37 +29,35 @@ const ArrayCardio1 = () => {
   return (
     <div className="content-container">
       <h1>Psst: have a look at the JavaScript Console</h1>
-      <script>
-        {/* // Array.prototype.filter() */}
-        {console.log("1. Filter the list of inventors for those who were born in the 1500's")}
-        {console.table(inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600))}
-          
-        {/* // Array.prototype.map() */}
-        {console.log("2. Give us an array of the inventors first and last names")}
-        {console.log(inventors.map(inventor => `${inventor.first} ${inventor.last}`))}
+      {/* // Array.prototype.filter() */}
+      {console.log("1. Filter the list of inventors for those who were born in the 1500's")}
+      {console.table(inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600))}
         
-        {/* // Array.prototype.sort() */}
-        {console.log("3. Sort the inventors by birthdate, oldest to youngest")}
-        {console.table(inventors.sort((a, b) => a.year - b.year))}
+      {/* // Array.prototype.map() */}
+      {console.log("2. Give us an array of the inventors first and last names")}
+      {console.log(inventors.map(inventor => `${inventor.first} ${inventor.last}`))}
+      
+      {/* // Array.prototype.sort() */}
+      {console.log("3. Sort the inventors by birthdate, oldest to youngest")}
+      {console.table(inventors.sort((a, b) => a.year - b.year))}
 
-        {/* // Array.prototype.reduce() */}
-        {console.log("4. How many years did all the inventors live all together?")}
-        {console.log(inventors.reduce((total, inventor) => total + (inventor.passed - inventor.year), 0))}
-        
-        {console.log("5. Sort the inventors by years lived")}
-        {console.table(inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year)))}
+      {/* // Array.prototype.reduce() */}
+      {console.log("4. How many years did all the inventors live all together?")}
+      {console.log(inventors.reduce((total, inventor) => total + (inventor.passed - inventor.year), 0))}
+      
+      {console.log("5. Sort the inventors by years lived")}
+      {console.table(inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year)))}
 
-        {/* // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
-        // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris */}
+      {/* // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+      // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris */}
 
-        {/* // 7. sort Exercise */}
-        {console.log("6. Sort the people alphabetically by last name")}
-        {console.log(people.sort((a, b) => a - b))}
+      {/* // 7. sort Exercise */}
+      {console.log("6. Sort the people alphabetically by last name")}
+      {console.log(people.sort((a, b) => a - b))}
 
-        {/* // 8. Reduce Exercise */}
-        {console.log("7. Sum up the instances of each of these")}
-        {console.log(transportion)}
-      </script>
+      {/* // 8. Reduce Exercise */}
+      {console.log("7. Sum up the instances of each of these")}
+      {console.log(transportion)}
     </div>
   );
 };
