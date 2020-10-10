@@ -20,29 +20,16 @@ const ArrayCardio1 = () => {
 
   const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
 
-
-
-
   const transportion = data.reduce((obj, item) => {
     if (!obj[item]) obj[item] = 0;
     obj[item]++;
     return obj;
   }, {});
 
-
-  
-
-
-
-
   return (
     <div className="content-container">
       <h1>Psst: have a look at the JavaScript Console</h1>
       <script>
-        {/* // Get your shorts on - this is an array workout!
-        // ## Array Cardio Day 1
-
-        // Some data we can work with */}
         {/* // Array.prototype.filter() */}
         {console.log("1. Filter the list of inventors for those who were born in the 1500's")}
         {console.table(inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600))}
@@ -64,7 +51,6 @@ const ArrayCardio1 = () => {
 
         {/* // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
         // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris */}
-
 
         {/* // 7. sort Exercise */}
         {console.log("6. Sort the people alphabetically by last name")}
