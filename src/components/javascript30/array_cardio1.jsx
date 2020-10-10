@@ -39,14 +39,14 @@ const ArrayCardio1 = () => {
       
       {/* // Array.prototype.sort() */}
       {console.log("3. Sort the inventors by birthdate, oldest to youngest")}
-      {console.table(inventors.sort((a, b) => a.year - b.year))}
+      {console.table(inventors.slice(0).sort((a, b) => a.year - b.year))}
 
       {/* // Array.prototype.reduce() */}
       {console.log("4. How many years did all the inventors live all together?")}
       {console.log(inventors.reduce((total, inventor) => total + (inventor.passed - inventor.year), 0))}
       
       {console.log("5. Sort the inventors by years lived")}
-      {console.table(inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year)))}
+      {console.table(inventors.slice(0).sort((a, b) => (a.passed - a.year) - (b.passed - b.year)))}
 
       {/* // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
       // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris */}
