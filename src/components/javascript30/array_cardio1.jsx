@@ -20,11 +20,20 @@ const ArrayCardio1 = () => {
 
   const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
 
+
+
+
   const transportion = data.reduce((obj, item) => {
     if (!obj[item]) obj[item] = 0;
     obj[item]++;
     return obj;
   }, {});
+
+
+  
+
+
+
 
   return (
     <div className="content-container">
@@ -34,35 +43,35 @@ const ArrayCardio1 = () => {
         // ## Array Cardio Day 1
 
         // Some data we can work with */}
-        {/* // Array.prototype.filter()
-        // 1. Filter the list of inventors for those who were born in the 1500's */}
+        {/* // Array.prototype.filter() */}
+        {console.log("1. Filter the list of inventors for those who were born in the 1500's")}
         {console.table(inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600))}
           
-        {/* // Array.prototype.map()
-        // 2. Give us an array of the inventors first and last names */}
+        {/* // Array.prototype.map() */}
+        {console.log("2. Give us an array of the inventors first and last names")}
         {console.log(inventors.map(inventor => `${inventor.first} ${inventor.last}`))}
         
-        {/* // Array.prototype.sort()
-        // 3. Sort the inventors by birthdate, oldest to youngest */}
+        {/* // Array.prototype.sort() */}
+        {console.log("3. Sort the inventors by birthdate, oldest to youngest")}
         {console.table(inventors.sort((a, b) => a.year - b.year))}
 
-        {/* // Array.prototype.reduce()
-        // 4. How many years did all the inventors live all together? */}
+        {/* // Array.prototype.reduce() */}
+        {console.log("4. How many years did all the inventors live all together?")}
         {console.log(inventors.reduce((total, inventor) => total + (inventor.passed - inventor.year), 0))}
         
-        {/* // 5. Sort the inventors by years lived */}
+        {console.log("5. Sort the inventors by years lived")}
         {console.table(inventors.sort((a, b) => (a.passed - a.year) - (b.passed - b.year)))}
 
         {/* // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
         // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris */}
 
 
-        {/* // 7. sort Exercise
-        // Sort the people alphabetically by last name */}
+        {/* // 7. sort Exercise */}
+        {console.log("6. Sort the people alphabetically by last name")}
         {console.log(people.sort((a, b) => a - b))}
 
-        {/* // 8. Reduce Exercise
-        // Sum up the instances of each of these */}
+        {/* // 8. Reduce Exercise */}
+        {console.log("7. Sum up the instances of each of these")}
         {console.log(transportion)}
       </script>
     </div>
