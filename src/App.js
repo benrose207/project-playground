@@ -9,6 +9,7 @@ import Clock from './components/javascript30/clock';
 import CSSVariables from './components/javascript30/css_variables';
 import ArrayCardio1 from './components/javascript30/array_cardio1';
 import FlexPanelsImageGallery from './components/javascript30/flex_panels_image_gallery';
+import AjaxTypeAhead from './components/javascript30/ajax_type_ahead';
 import Footer from './components/navigation/footer';
 
 
@@ -31,6 +32,7 @@ const App = () => {
           <Route path="/javascript30/3" component={CSSVariables}/>
           <Route path="/javascript30/4" component={ArrayCardio1}/>
           <Route path="/javascript30/5" component={FlexPanelsImageGallery}/>
+          <Route path="/javascript30/6" component={AjaxTypeAhead}/>
         </Switch>
       </main>
       <Footer />
