@@ -16,6 +16,9 @@ const ArrayCardio2 = () => {
     { text: 'Nice Nice Nice!', id: 542328 }
   ];
 
+
+
+
   const hasAdults = people.some(person => (new Date().getFullYear() - person.year) >= 19);
 
   const allAdults = people.every(person => (new Date().getFullYear() - person.year) >= 19);
@@ -31,7 +34,12 @@ const ArrayCardio2 = () => {
   const deleteComment = (commentId) => {
     const idx = findCommentIdx(commentId);
     return [...comments.slice(0, idx), ...comments.slice(idx + 1)];
-  }
+  };
+
+
+
+
+  
 
   return (
     <div className="content-container">

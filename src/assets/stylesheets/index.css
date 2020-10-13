@@ -145,3 +145,13 @@ picture.js30-day-card:after {
   text-align: center;
   letter-spacing: 0.05rem;
 }
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+p > a {
+  color: #7105BE;
+  font-weight: 600;
+}

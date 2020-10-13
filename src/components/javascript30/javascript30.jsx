@@ -5,6 +5,7 @@ import day3Img from '../../assets/images/js30_day3.png';
 import day4Img from '../../assets/images/js30_day4.png';
 import day5Img from '../../assets/images/js30_day5.png';
 import day6Img from '../../assets/images/js30_day6.png';
+import day7Img from '../../assets/images/js30_day7.png';
 import '../../assets/stylesheets/javascript30.css';
 import Card from './card';
 
@@ -38,6 +39,9 @@ const JavaScript30 = () => {
   return (
     <div className="content-container-grid">
       <h1>JavaScript30</h1>
+      <p>The below projects are my take on the 30 vanilla JavaScript exercises in the JavaScript30 course, which can be found 
+        <a href="https://javascript30.com/" target="_blank" rel="noopener noreferrer"> here</a>.
+      </p>
       <section className="flex-wrap-container">
         <Card img={drumKitImg} altText="drum set" title="Day 1: Drum Kit" path="/javascript30/1"/>
         <Card img={clockImg} altText="css clock" title="Day 2: CSS + JS Clock" path="/javascript30/2"/>
@@ -45,7 +49,7 @@ const JavaScript30 = () => {
         <Card img={day4Img} altText="screenshot of javascript reduce method" title="Day 4: Array Cardio Day 1" path="/javascript30/4"/>
         <Card img={day5Img} altText="screenshot of flex image gallery" title="Day 5: Flex Panels Image Gallery" path="/javascript30/5"/>
         <Card img={day6Img} altText="screenshot of ajax typeahead" title="Day 6: AJAX Type Ahead" path="/javascript30/6"/>
-        <Card img={day6Img} altText="screenshot of ajax typeahead" title="Day 7: Array Cardio Day 2" path="/javascript30/7"/>
+        <Card img={day7Img} altText="screenshot of javascript array methods" title="Day 7: Array Cardio Day 2" path="/javascript30/7"/>
       </section>
     </div>
   )
