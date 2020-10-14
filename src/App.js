@@ -11,6 +11,7 @@ import ArrayCardio1 from './components/javascript30/array_cardio1';
 import FlexPanelsImageGallery from './components/javascript30/flex_panels_image_gallery';
 import AjaxTypeAhead from './components/javascript30/ajax_type_ahead';
 import ArrayCardio2 from './components/javascript30/array_cardio2';
+import HTML5Canvas from './components/javascript30/html5_canvas';
 import Footer from './components/navigation/footer';
 
 
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/javascript30/5" component={FlexPanelsImageGallery}/>
           <Route path="/javascript30/6" component={AjaxTypeAhead}/>
           <Route path="/javascript30/7" component={ArrayCardio2}/>
+          <Route path="/javascript30/8" component={HTML5Canvas}/>
         </Switch>
       </main>
       <Footer />

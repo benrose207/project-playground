@@ -265,3 +265,23 @@ input.search {
 span.population {
   font-size: 15px;
 }
+
+/* Day 8: Fun with HTML5 Canvas */
+#draw {
+  border: 4px solid #7105BE;
+  box-shadow: 0px -8px 10px #0000002e, 0px 8px 10px #0000002e;
+}
+
+#canvas-reset {
+  border: 2px solid #383838;
+  width: 100px;
+}
+
+.canvas-header {
+  align-items: center;
+}
+
+.canvas-header p {
+  margin-bottom: 0;
+  margin-right: 1rem;
+}

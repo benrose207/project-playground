@@ -39,8 +39,8 @@ const JavaScript30 = () => {
   return (
     <div className="content-container-grid">
       <h1>JavaScript30</h1>
-      <p>The below projects are my take on the 30 vanilla JavaScript exercises in the JavaScript30 course, which can be found 
-        <a href="https://javascript30.com/" target="_blank" rel="noopener noreferrer"> here</a>.
+      <p>The below projects are my take on the 30 vanilla JavaScript exercises in the 
+        <a href="https://javascript30.com/" target="_blank" rel="noopener noreferrer"> JavaScript30 course</a>.
       </p>
       <section className="flex-wrap-container">
         <Card img={drumKitImg} altText="drum set" title="Day 1: Drum Kit" path="/javascript30/1"/>
@@ -50,6 +50,7 @@ const JavaScript30 = () => {
         <Card img={day5Img} altText="screenshot of flex image gallery" title="Day 5: Flex Panels Image Gallery" path="/javascript30/5"/>
         <Card img={day6Img} altText="screenshot of ajax typeahead" title="Day 6: AJAX Type Ahead" path="/javascript30/6"/>
         <Card img={day7Img} altText="screenshot of javascript array methods" title="Day 7: Array Cardio Day 2" path="/javascript30/7"/>
+        <Card img={day7Img} altText="screenshot of javascript array methods" title="Day 8: Fun with HTML5 Canvas" path="/javascript30/8"/>
       </section>
     </div>
   )
