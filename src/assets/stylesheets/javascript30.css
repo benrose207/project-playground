@@ -268,7 +268,8 @@ span.population {
 
 /* Day 8: Fun with HTML5 Canvas */
 #draw {
-  border: 4px solid #7105BE;
+  border-top: 4px solid #7105BE;
+  border-bottom: 4px solid #7105BE;
   box-shadow: 0px -8px 10px #0000002e, 0px 8px 10px #0000002e;
 }
 
