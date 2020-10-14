@@ -277,6 +277,12 @@ span.population {
   width: 100px;
 }
 
+#canvas-reset:hover {
+  color: #F4B942;
+  background-color: #383838;
+  box-shadow: 0 0 10px #383838
+}
+
 .canvas-header {
   align-items: center;
 }
