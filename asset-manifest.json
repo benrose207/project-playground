@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/project-playground/static/css/main.0eb8f4cb.chunk.css",
+    "main.css": "/project-playground/static/css/main.04027636.chunk.css",
     "main.js": "/project-playground/static/js/main.86621b69.chunk.js",
     "main.js.map": "/project-playground/static/js/main.86621b69.chunk.js.map",
     "runtime-main.js": "/project-playground/static/js/runtime-main.a8abf3f1.js",
@@ -8,9 +8,9 @@
     "static/js/2.41d444f2.chunk.js": "/project-playground/static/js/2.41d444f2.chunk.js",
     "static/js/2.41d444f2.chunk.js.map": "/project-playground/static/js/2.41d444f2.chunk.js.map",
     "index.html": "/project-playground/index.html",
-    "precache-manifest.6088f4bb3bb6164796a857e73e58799f.js": "/project-playground/precache-manifest.6088f4bb3bb6164796a857e73e58799f.js",
+    "precache-manifest.9131ee43e708ee5f1249ca629c8f224a.js": "/project-playground/precache-manifest.9131ee43e708ee5f1249ca629c8f224a.js",
     "service-worker.js": "/project-playground/service-worker.js",
-    "static/css/main.0eb8f4cb.chunk.css.map": "/project-playground/static/css/main.0eb8f4cb.chunk.css.map",
+    "static/css/main.04027636.chunk.css.map": "/project-playground/static/css/main.04027636.chunk.css.map",
     "static/js/2.41d444f2.chunk.js.LICENSE.txt": "/project-playground/static/js/2.41d444f2.chunk.js.LICENSE.txt",
     "static/media/boom.wav": "/project-playground/static/media/boom.550be808.wav",
     "static/media/clap.wav": "/project-playground/static/media/clap.a6e86dd7.wav",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.a8abf3f1.js",
     "static/js/2.41d444f2.chunk.js",
-    "static/css/main.0eb8f4cb.chunk.css",
+    "static/css/main.04027636.chunk.css",
     "static/js/main.86621b69.chunk.js"
   ]
 }
