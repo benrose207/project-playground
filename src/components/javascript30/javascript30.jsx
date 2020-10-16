@@ -52,6 +52,7 @@ const JavaScript30 = () => {
         <Card img={day6Img} altText="screenshot of ajax typeahead" title="Day 6: AJAX Type Ahead" path="/javascript30/6"/>
         <Card img={day7Img} altText="screenshot of javascript array methods" title="Day 7: Array Cardio Day 2" path="/javascript30/7"/>
         <Card img={day8Img} altText="screenshot of HTML5 Canvas" title="Day 8: Fun with HTML5 Canvas" path="/javascript30/8"/>
+        <Card img={day8Img} altText="screenshot of HTML5 Canvas" title="Day 9: 14 Must-Know Dev Tools Tricks" path="/javascript30/9"/>
       </section>
     </div>
   )
