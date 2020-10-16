@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom';
 import './assets/stylesheets/reset.css';
 import './assets/stylesheets/index.css';
+import ScrollToTop from './components/utils/scroll_to_top';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
@@ -13,6 +14,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 ReactDOM.render(
     <HashRouter>
+      <ScrollToTop />
       <App />
     </HashRouter>,
   document.getElementById('root')
