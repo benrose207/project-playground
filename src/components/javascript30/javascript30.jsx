@@ -7,6 +7,7 @@ import day5Img from '../../assets/images/js30_day5.png';
 import day6Img from '../../assets/images/js30_day6.png';
 import day7Img from '../../assets/images/js30_day7.png';
 import day8Img from '../../assets/images/js30_day8.png';
+import day9Img from '../../assets/images/js30_day9.png';
 import '../../assets/stylesheets/javascript30.css';
 import Card from './card';
 
@@ -52,7 +53,7 @@ const JavaScript30 = () => {
         <Card img={day6Img} altText="screenshot of ajax typeahead" title="Day 6: AJAX Type Ahead" path="/javascript30/6"/>
         <Card img={day7Img} altText="screenshot of javascript array methods" title="Day 7: Array Cardio Day 2" path="/javascript30/7"/>
         <Card img={day8Img} altText="screenshot of HTML5 Canvas" title="Day 8: Fun with HTML5 Canvas" path="/javascript30/8"/>
-        <Card img={day8Img} altText="screenshot of HTML5 Canvas" title="Day 9: 14 Must-Know Dev Tools Tricks" path="/javascript30/9"/>
+        <Card img={day9Img} altText="screenshot of styling in JS console" title="Day 9: 14 Must-Know Dev Tools Tricks" path="/javascript30/9"/>
       </section>
     </div>
   )

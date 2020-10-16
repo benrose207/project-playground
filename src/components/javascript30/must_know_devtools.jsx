@@ -20,7 +20,7 @@ const MustKnowDevTools = () => {
     
     // Styled
     console.log('%c Using styling and console.log()', headerStyling);
-    console.log('%c Hello, I am a styled string!', 'font-size: 40px; background:darkGrey; text-shadow: 5px 10px 0 blue');
+    console.log('%c Hello, I am a styled string!', 'font-size: 40px; background:darkGrey; text-shadow: 5px 5px 0 blue');
     
     // warning!
     console.log('%c Using console.warn()', headerStyling);
