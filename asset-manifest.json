@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/project-playground/static/css/main.04027636.chunk.css",
-    "main.js": "/project-playground/static/js/main.6cffa120.chunk.js",
-    "main.js.map": "/project-playground/static/js/main.6cffa120.chunk.js.map",
+    "main.css": "/project-playground/static/css/main.b4aecd75.chunk.css",
+    "main.js": "/project-playground/static/js/main.154e57c4.chunk.js",
+    "main.js.map": "/project-playground/static/js/main.154e57c4.chunk.js.map",
     "runtime-main.js": "/project-playground/static/js/runtime-main.a8abf3f1.js",
     "runtime-main.js.map": "/project-playground/static/js/runtime-main.a8abf3f1.js.map",
-    "static/js/2.2ddb3991.chunk.js": "/project-playground/static/js/2.2ddb3991.chunk.js",
-    "static/js/2.2ddb3991.chunk.js.map": "/project-playground/static/js/2.2ddb3991.chunk.js.map",
+    "static/js/2.345ae988.chunk.js": "/project-playground/static/js/2.345ae988.chunk.js",
+    "static/js/2.345ae988.chunk.js.map": "/project-playground/static/js/2.345ae988.chunk.js.map",
     "index.html": "/project-playground/index.html",
-    "precache-manifest.df8cf8019b1fcad9caf82b36a1208a08.js": "/project-playground/precache-manifest.df8cf8019b1fcad9caf82b36a1208a08.js",
+    "precache-manifest.d1006f62279e74591b8605a7fa6479cf.js": "/project-playground/precache-manifest.d1006f62279e74591b8605a7fa6479cf.js",
     "service-worker.js": "/project-playground/service-worker.js",
-    "static/css/main.04027636.chunk.css.map": "/project-playground/static/css/main.04027636.chunk.css.map",
-    "static/js/2.2ddb3991.chunk.js.LICENSE.txt": "/project-playground/static/js/2.2ddb3991.chunk.js.LICENSE.txt",
+    "static/css/main.b4aecd75.chunk.css.map": "/project-playground/static/css/main.b4aecd75.chunk.css.map",
+    "static/js/2.345ae988.chunk.js.LICENSE.txt": "/project-playground/static/js/2.345ae988.chunk.js.LICENSE.txt",
     "static/media/boom.wav": "/project-playground/static/media/boom.550be808.wav",
     "static/media/clap.wav": "/project-playground/static/media/clap.a6e86dd7.wav",
     "static/media/clock.jpg": "/project-playground/static/media/clock.c91b7e3b.jpg",
     "static/media/drum-kit.jpg": "/project-playground/static/media/drum-kit.eae0deb3.jpg",
     "static/media/hihat.wav": "/project-playground/static/media/hihat.4ba39e07.wav",
+    "static/media/js30_day10.png": "/project-playground/static/media/js30_day10.defcefda.png",
     "static/media/js30_day3.png": "/project-playground/static/media/js30_day3.02a4be8f.png",
     "static/media/js30_day4.png": "/project-playground/static/media/js30_day4.f4fc89b4.png",
     "static/media/js30_day5.png": "/project-playground/static/media/js30_day5.30255535.png",
@@ -34,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a8abf3f1.js",
-    "static/js/2.2ddb3991.chunk.js",
-    "static/css/main.04027636.chunk.css",
-    "static/js/main.6cffa120.chunk.js"
+    "static/js/2.345ae988.chunk.js",
+    "static/css/main.b4aecd75.chunk.css",
+    "static/js/main.154e57c4.chunk.js"
   ]
 }
