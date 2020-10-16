@@ -13,6 +13,7 @@ import AjaxTypeAhead from './components/javascript30/ajax_type_ahead';
 import ArrayCardio2 from './components/javascript30/array_cardio2';
 import HTML5Canvas from './components/javascript30/html5_canvas';
 import MustKnowDevTools from './components/javascript30/must_know_devtools';
+import MultipleCheckboxes from './components/javascript30/mutiple_checkboxes';
 import Footer from './components/navigation/footer';
 
 
@@ -39,6 +40,7 @@ const App = () => {
           <Route path="/javascript30/7" component={ArrayCardio2}/>
           <Route path="/javascript30/8" component={HTML5Canvas}/>
           <Route path="/javascript30/9" component={MustKnowDevTools}/>
+          <Route path="/javascript30/10" component={MultipleCheckboxes}/>
         </Switch>
       </main>
       <Footer />
