@@ -1,5 +1,4 @@
-import React from 'react';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import MountainsVideo from '../../assets/videos/Mountains.mp4';
 
 const VideoPayer = () => {
