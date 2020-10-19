@@ -15,6 +15,7 @@ import HTML5Canvas from './components/javascript30/html5_canvas';
 import MustKnowDevTools from './components/javascript30/must_know_devtools';
 import MultipleCheckboxes from './components/javascript30/mutiple_checkboxes';
 import VideoPlayer from './components/javascript30/video_player';
+import KeySequenceDetection from './components/javascript30/key_sequence_detection';
 import Footer from './components/navigation/footer';
 
 
@@ -43,6 +44,7 @@ const App = () => {
           <Route path="/javascript30/9" component={MustKnowDevTools}/>
           <Route path="/javascript30/10" component={MultipleCheckboxes}/>
           <Route path="/javascript30/11" component={VideoPlayer}/>
+          <Route path="/javascript30/12" component={KeySequenceDetection}/>
         </Switch>
       </main>
       <Footer />
