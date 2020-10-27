@@ -476,3 +476,41 @@ input[type="checkbox"] {
   background: #F4B942;
   cursor: pointer;
 }
+
+/* Day 13: Slide in on Scroll */
+
+.article-wrap {
+  max-width: 700px;
+  margin: 100px auto;
+  background: white;
+  padding: 40px;
+  text-align: justify;
+}
+
+.align-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.slide-img-in {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.align-left.slide-img-in {
+  transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-img-in {
+  transform: translateX(30%) scale(0.95);
+}
+
+.slide-img-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
