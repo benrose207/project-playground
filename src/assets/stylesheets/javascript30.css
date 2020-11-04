@@ -528,7 +528,7 @@ input[type="checkbox"] {
 
 .wrapper {
   padding: 20px;
-  max-width: 350px;
+  max-width: 400px;
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -544,6 +544,8 @@ input[type="checkbox"] {
   padding: 0;
   text-align: left;
   list-style: none;
+  max-height: 200px;
+  overflow-y: scroll;
 }
 
 .plates li {
@@ -573,26 +575,44 @@ input[type="checkbox"] {
 
 .add-items {
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .add-items input {
   padding: 10px;
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
 }
 
 .food-img {
   box-sizing: border-box;
   background: url("../images/oh-la-la.jpeg") center no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  height: calc(100vh + 200px);
+  /* max-height: calc(100vh + 200px); */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   text-align: center;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 .food-img h1 {
   color: #EFF2F1;
+}
+
+.food-container {
+  justify-content: space-between;
+}
+
+.title-wrapper {
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.8rem;
+}
+
+.title-wrapper > h1 {
+  margin-bottom: 0;
 }

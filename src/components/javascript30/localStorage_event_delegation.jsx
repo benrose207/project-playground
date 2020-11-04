@@ -1,7 +1,52 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import foodImg from '../../assets/images/oh-la-la.jpeg';
 
 const LocalStorageEventDelegation = () => {
+  useEffect(() => {
+    const addItems = document.querySelector('.add-items');
+    const itemsList = document.querySelector('.plates');
+    const items = JSON.parse(localStorage.getItem('items')) || [];
+
+    function addItem(e) {
+      e.preventDefault();
+      const text = (this.querySelector('[name=item]')).value;
+      const item = {
+        text,
+        done: false,
+      }
+
+      items.push(item);
+      populateList(items, itemsList);
+      localStorage.setItem('items', JSON.stringify(items));
+      this.reset();
+    }
+
+    function populateList(plates = [], platesList) {
+      platesList.innerHTML = plates.map((plate, idx) => {
+        return `
+          <li key=${idx}>
+            <input type="checkbox" data-index=${idx} id="item${idx}" ${plate.done ? "checked" : ""}> 
+            <label for="item${idx}">${plate.text}</label>
+          </li>
+        `;
+      }).join('');
+    }
+
+    function toggleDone(e) {
+      if (!e.target.matches('input')) return;
+      const el = e.target;
+      const index = el.dataset.index;
+      items[index].done = !items[index].done;
+      localStorage.setItem('items', JSON.stringify(items));
+      populateList(items, itemsList);
+    }
+
+    addItems.addEventListener('submit', addItem);
+    itemsList.addEventListener('click', toggleDone);
+    populateList(items, itemsList);
+  });
+
+
   const svg = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -24,14 +69,18 @@ const LocalStorageEventDelegation = () => {
 
   return (
     <div className="food-img">
-      <div className="content-container">
-        <h1>Local Storage & Event Delegation</h1>
-        {/* <!--
-        Fish SVG Cred:
-        https://thenounproject.com/search/?q=fish&i=589236
-        --> */}
+      <div className="content-container food-container">
+        <div>
+          <div className="title-wrapper">
+            <h1>Local Storage & Event Delegation</h1>
+          </div>
+          {/* <!--
+          Fish SVG Cred:
+          https://thenounproject.com/search/?q=fish&i=589236
+          --> */}
 
-        {svg}
+          {svg}
+        </div>
 
         <div className="wrapper">
           <h2 className="tapas-header">LOCAL TAPAS</h2>
@@ -40,7 +89,7 @@ const LocalStorageEventDelegation = () => {
             <li>Loading Tapas...</li>
           </ul>
           <form className="add-items">
-            <input type="text" name="item" placeholder="Item Name" required />
+            <input type="text" name="item" placeholder="Item Name" required aria-label="input textbox"/>
             <input type="submit" value="+ Add Item" />
           </form>
         </div>
