@@ -66,6 +66,7 @@ const JavaScript30 = () => {
         <Card img={day13Img} altText="image of cloud inset into article text" title="Day 13: Slide in on Scroll" path="/javascript30/13"/>
         <Card img={day14Img} altText="screenshot of various javascript array copying methods" title="Day 14: Object and Arrays - Reference vs. Copy" path="/javascript30/14"/>
         <Card img={day15Img} altText="checklist of local tapas foods" title="Day 15: LocalStorage and Event Delegation" path="/javascript30/15"/>
+        <Card img={day15Img} altText="checklist of local tapas foods" title="Day 16: CSS Text Shadow Mouse Move Effect" path="/javascript30/16"/>
       </section>
     </div>
   )

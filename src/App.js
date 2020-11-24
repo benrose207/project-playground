@@ -19,6 +19,7 @@ import KeySequenceDetection from './components/javascript30/key_sequence_detecti
 import SlideInOnScroll from './components/javascript30/slide_scroll';
 import ObjectAndArrays from './components/javascript30/object_and_arrays';
 import LocalStorageEventDelegation from './components/javascript30/localStorage_event_delegation';
+import CSSTextShadow from './components/javascript30/css_text_shadow';
 import Footer from './components/navigation/footer';
 
 
@@ -51,6 +52,7 @@ const App = () => {
           <Route path="/javascript30/13" component={SlideInOnScroll}/>
           <Route path="/javascript30/14" component={ObjectAndArrays}/>
           <Route path="/javascript30/15" component={LocalStorageEventDelegation}/>
+          <Route path="/javascript30/16" component={CSSTextShadow}/>
         </Switch>
       </main>
       <Footer />

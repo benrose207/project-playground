@@ -616,3 +616,14 @@ input[type="checkbox"] {
 .title-wrapper > h1 {
   margin-bottom: 0;
 }
+
+/* Day 16: CSS Shadow Mouse Move Effect */
+
+.css-shadow-hero {
+  margin: 3rem;
+}
+
+.css-shadow-hero > h2 {
+  text-shadow: 10px 10px 0 rgba(0,0,0,0.6);
+  font-size: 100px;
+}
