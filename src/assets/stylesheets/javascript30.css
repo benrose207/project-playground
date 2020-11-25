@@ -627,3 +627,29 @@ input[type="checkbox"] {
   text-shadow: 10px 10px 0 rgba(0,0,0,0.6);
   font-size: 100px;
 }
+
+/* Day 17: Sort Without Articles */
+
+#bands {
+  list-style: inside square;
+  font-size: 20px;
+  background: white;
+  width: 500px;
+  margin: auto;
+  padding: 0;
+  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+#bands li {
+  border-bottom: 1px solid #efefef;
+  padding: 20px;
+}
+
+#bands li:last-child {
+  border-bottom: 0;
+}
+
+#bands a {
+  color: #ffc600;
+  text-decoration: none;
+}
