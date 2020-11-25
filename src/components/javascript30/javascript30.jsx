@@ -70,6 +70,7 @@ const JavaScript30 = () => {
         <Card img={day15Img} altText="checklist of local tapas foods" title="Day 15: LocalStorage and Event Delegation" path="/javascript30/15"/>
         <Card img={day16Img} altText="Text with several different shadows" title="Day 16: CSS Text Shadow Mouse Move Effect" path="/javascript30/16"/>
         <Card img={day17Img} altText="Alphabetical list ordered without articles" title="Day 17: Sorting Band Names Without Articles" path="/javascript30/17"/>
+        <Card img={day17Img} altText="Alphabetical list ordered without articles" title="Day 18: Tally String Times with Reduce" path="/javascript30/18"/>
       </section>
     </div>
   )
