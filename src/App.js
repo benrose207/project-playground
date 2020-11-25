@@ -20,6 +20,7 @@ import SlideInOnScroll from './components/javascript30/slide_scroll';
 import ObjectAndArrays from './components/javascript30/object_and_arrays';
 import LocalStorageEventDelegation from './components/javascript30/localStorage_event_delegation';
 import CSSTextShadow from './components/javascript30/css_text_shadow';
+import SortWithoutArticles from './components/javascript30/sort_without_articles';
 import Footer from './components/navigation/footer';
 
 
@@ -53,6 +54,7 @@ const App = () => {
           <Route path="/javascript30/14" component={ObjectAndArrays}/>
           <Route path="/javascript30/15" component={LocalStorageEventDelegation}/>
           <Route path="/javascript30/16" component={CSSTextShadow}/>
+          <Route path="/javascript30/17" component={SortWithoutArticles}/>
         </Switch>
       </main>
       <Footer />
