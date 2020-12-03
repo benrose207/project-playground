@@ -16,6 +16,7 @@ import day14Img from '../../assets/images/js30_day14.png';
 import day15Img from '../../assets/images/js30_day15.png';
 import day16Img from '../../assets/images/js30_day16.png';
 import day17Img from '../../assets/images/js30_day17.png';
+import day18Img from '../../assets/images/js30_day18.png';
 import '../../assets/stylesheets/javascript30.css';
 import Card from './card';
 
@@ -70,7 +71,7 @@ const JavaScript30 = () => {
         <Card img={day15Img} altText="checklist of local tapas foods" title="Day 15: LocalStorage and Event Delegation" path="/javascript30/15"/>
         <Card img={day16Img} altText="Text with several different shadows" title="Day 16: CSS Text Shadow Mouse Move Effect" path="/javascript30/16"/>
         <Card img={day17Img} altText="Alphabetical list ordered without articles" title="Day 17: Sorting Band Names Without Articles" path="/javascript30/17"/>
-        <Card img={day17Img} altText="Alphabetical list ordered without articles" title="Day 18: Tally String Times with Reduce" path="/javascript30/18"/>
+        <Card img={day18Img} altText="List with times and total time" title="Day 18: Tally String Times with Reduce" path="/javascript30/18"/>
       </section>
     </div>
   )
