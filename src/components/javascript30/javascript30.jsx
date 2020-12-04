@@ -72,6 +72,7 @@ const JavaScript30 = () => {
         <Card img={day16Img} altText="Text with several different shadows" title="Day 16: CSS Text Shadow Mouse Move Effect" path="/javascript30/16"/>
         <Card img={day17Img} altText="Alphabetical list ordered without articles" title="Day 17: Sorting Band Names Without Articles" path="/javascript30/17"/>
         <Card img={day18Img} altText="List with times and total time" title="Day 18: Tally String Times with Reduce" path="/javascript30/18"/>
+        <Card img={day18Img} altText="List with times and total time" title="Day 19: Unreal Webcam Fun" path="/javascript30/19"/>
       </section>
     </div>
   )
