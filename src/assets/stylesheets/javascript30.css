@@ -699,3 +699,18 @@ input[type="checkbox"] {
 .photobooth .strip a:nth-child(5n+3) img { transform: rotate(8deg); }
 .photobooth .strip a:nth-child(5n+4) img { transform: rotate(-11deg); }
 .photobooth .strip a:nth-child(5n+5) img { transform: rotate(12deg); }
+
+.rgb {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  padding-top: 0;
+}
+
+.rgb > div {
+  margin-right: 1rem;
+}
+
+.photo-controls > button {
+  padding: 1.5rem;
+}
