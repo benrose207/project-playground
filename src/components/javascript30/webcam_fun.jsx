@@ -7,6 +7,7 @@ const WebcamFun = () => {
     const video = document.querySelector('.player');
     const canvas = document.getElementById('photo');
     const ctx = canvas.getContext('2d');
+    let intervalId;
 
     function getVideo() {
       navigator.mediaDevices.getUserMedia({ video: true, audio: false })
@@ -22,7 +23,6 @@ const WebcamFun = () => {
     }
 
     function paintToCanvas() {
-      let intervalId;
       if (intervalId) clearInterval(intervalId);
 
       const width = video.videoWidth;
@@ -42,13 +42,11 @@ const WebcamFun = () => {
           if (button.dataset.status === 'active') {
             if (button.id === 'redEffect') {
               pixels = redEffect(pixels);
-              // ctx.globalAlpha = 1.0;
             } else if (button.id === 'rgbaSplit') {
               pixels = rgbSplit(pixels);
               ctx.globalAlpha = 0.1;
             } else if (button.id === 'greenScreen') {
               pixels = greenScreen(pixels);
-              // ctx.globalAlpha = 1.0;
             }
           }
         }
@@ -104,9 +102,20 @@ const WebcamFun = () => {
       return pixels;
     }
 
+    function stopWebcam() {
+      const tracks = video.srcObject.getTracks();
+      tracks[0].stop();
+    }
+
     getVideo();
 
     video.addEventListener('canplay', paintToCanvas);
+
+    return () => {
+      clearInterval(intervalId);
+      video.removeEventListener('canplay', paintToCanvas);
+      stopWebcam();
+    }
   });
 
   const handleEffectChange = (e) => {
