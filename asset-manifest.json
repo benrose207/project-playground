@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/project-playground/static/css/main.b12c308a.chunk.css",
-    "main.js": "/project-playground/static/js/main.8ee2ce76.chunk.js",
-    "main.js.map": "/project-playground/static/js/main.8ee2ce76.chunk.js.map",
+    "main.css": "/project-playground/static/css/main.3848d7a1.chunk.css",
+    "main.js": "/project-playground/static/js/main.f2887aeb.chunk.js",
+    "main.js.map": "/project-playground/static/js/main.f2887aeb.chunk.js.map",
     "runtime-main.js": "/project-playground/static/js/runtime-main.a8abf3f1.js",
     "runtime-main.js.map": "/project-playground/static/js/runtime-main.a8abf3f1.js.map",
-    "static/js/2.d5f795ed.chunk.js": "/project-playground/static/js/2.d5f795ed.chunk.js",
-    "static/js/2.d5f795ed.chunk.js.map": "/project-playground/static/js/2.d5f795ed.chunk.js.map",
+    "static/js/2.930c779a.chunk.js": "/project-playground/static/js/2.930c779a.chunk.js",
+    "static/js/2.930c779a.chunk.js.map": "/project-playground/static/js/2.930c779a.chunk.js.map",
     "index.html": "/project-playground/index.html",
-    "precache-manifest.271b51089c526ef48d65afc849a714f3.js": "/project-playground/precache-manifest.271b51089c526ef48d65afc849a714f3.js",
+    "precache-manifest.09d2704e598621ef148e9bec316f5ef2.js": "/project-playground/precache-manifest.09d2704e598621ef148e9bec316f5ef2.js",
     "service-worker.js": "/project-playground/service-worker.js",
-    "static/css/main.b12c308a.chunk.css.map": "/project-playground/static/css/main.b12c308a.chunk.css.map",
-    "static/js/2.d5f795ed.chunk.js.LICENSE.txt": "/project-playground/static/js/2.d5f795ed.chunk.js.LICENSE.txt",
+    "static/css/main.3848d7a1.chunk.css.map": "/project-playground/static/css/main.3848d7a1.chunk.css.map",
+    "static/js/2.930c779a.chunk.js.LICENSE.txt": "/project-playground/static/js/2.930c779a.chunk.js.LICENSE.txt",
     "static/media/Mountains.mp4": "/project-playground/static/media/Mountains.6de7f5de.mp4",
     "static/media/boom.wav": "/project-playground/static/media/boom.550be808.wav",
     "static/media/clap.wav": "/project-playground/static/media/clap.a6e86dd7.wav",
@@ -27,6 +27,7 @@
     "static/media/js30_day16.png": "/project-playground/static/media/js30_day16.7dd5182b.png",
     "static/media/js30_day17.png": "/project-playground/static/media/js30_day17.2ac8587d.png",
     "static/media/js30_day18.png": "/project-playground/static/media/js30_day18.25df81ac.png",
+    "static/media/js30_day19.jpeg": "/project-playground/static/media/js30_day19.4f62228d.jpeg",
     "static/media/js30_day3.png": "/project-playground/static/media/js30_day3.02a4be8f.png",
     "static/media/js30_day4.png": "/project-playground/static/media/js30_day4.f4fc89b4.png",
     "static/media/js30_day5.png": "/project-playground/static/media/js30_day5.30255535.png",
@@ -39,14 +40,15 @@
     "static/media/javascript30.css": "/project-playground/static/media/oh-la-la.7c618718.jpeg",
     "static/media/openhat.wav": "/project-playground/static/media/openhat.a62db465.wav",
     "static/media/ride.wav": "/project-playground/static/media/ride.b0d70ec5.wav",
+    "static/media/snap.mp3": "/project-playground/static/media/snap.003ce23a.mp3",
     "static/media/snare.wav": "/project-playground/static/media/snare.80c4129b.wav",
     "static/media/tink.wav": "/project-playground/static/media/tink.75f727ec.wav",
     "static/media/tom.wav": "/project-playground/static/media/tom.572ed39d.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.a8abf3f1.js",
-    "static/js/2.d5f795ed.chunk.js",
-    "static/css/main.b12c308a.chunk.css",
-    "static/js/main.8ee2ce76.chunk.js"
+    "static/js/2.930c779a.chunk.js",
+    "static/css/main.3848d7a1.chunk.css",
+    "static/js/main.f2887aeb.chunk.js"
   ]
 }
