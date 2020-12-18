@@ -711,6 +711,14 @@ input[type="checkbox"] {
   margin-right: 1rem;
 }
 
-.photo-controls > button {
-  padding: 1.5rem;
+.photo-controls button {
+  margin: 1.5rem;
+  padding: 0.5rem;
+  border: 2px solid #7105BE;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.photo-controls button:hover {
+  background-color: #eaceffde
 }
