@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import debounce from 'lodash.debounce';
 
 const SpeechRecognition = () => {
   window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -24,8 +25,18 @@ const SpeechRecognition = () => {
         words.appendChild(p);
       }
 
-      // Could use .includes to check if transcript contains a certain phrase of word, and then run something else. I.e. console.log something, hit an API, etc. etc.
+      if (transcript.includes('view portfolio')) {
+        debouncedOpen();
+        window.setTimeout(debouncedOpen.cancel, 500);
+      }
     }
+
+    function openPortfolio() {
+      const link = document.getElementById('portfolio');
+      link.click();
+    }
+
+    const debouncedOpen = debounce(openPortfolio, 300);
 
     recognition.addEventListener('result', speechHandler);
     recognition.addEventListener('end', recognition.start);
@@ -33,6 +44,7 @@ const SpeechRecognition = () => {
     recognition.start();
     
     return () => {
+      recognition.stop();
       recognition.removeEventListener('result', speechHandler);
       recognition.removeEventListener('end', recognition.start);
     }
@@ -44,6 +56,13 @@ const SpeechRecognition = () => {
       <h1>Native Speech Recognition</h1>
       <div className="words" contentEditable>
       </div>
+      <a
+        href="https://benjaminrose.net"
+        id="portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{display: 'none'}}
+      >Portfolio</a>
     </div>
   )
 };
