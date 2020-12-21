@@ -727,6 +727,7 @@ input[type="checkbox"] {
 
 .words {
   max-width: 500px;
+  min-width: 300px;
   margin: 50px auto;
   background: white;
   border-radius: 5px;
