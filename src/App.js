@@ -23,6 +23,7 @@ import CSSTextShadow from './components/javascript30/css_text_shadow';
 import SortWithoutArticles from './components/javascript30/sort_without_articles';
 import TallyTimesReduce from './components/javascript30/tally_times_reduce';
 import WebcamFun from './components/javascript30/webcam_fun';
+import SpeechRecognition from './components/javascript30/speech_recognition';
 import Footer from './components/navigation/footer';
 
 
@@ -59,6 +60,7 @@ const App = () => {
           <Route path="/javascript30/17" component={SortWithoutArticles}/>
           <Route path="/javascript30/18" component={TallyTimesReduce}/>
           <Route path="/javascript30/19" component={WebcamFun}/>
+          <Route path="/javascript30/20" component={SpeechRecognition}/>
         </Switch>
       </main>
       <Footer />
