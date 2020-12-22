@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88b864a3706fa2bdfd0904b2365d6bc1",
+    "revision": "b9cee4d4f669b4b1f186f5659d363efb",
     "url": "/project-playground/index.html"
   },
   {
-    "revision": "0d187a90ef7e43448054",
-    "url": "/project-playground/static/css/main.3848d7a1.chunk.css"
+    "revision": "499d0904ebd0738db9f0",
+    "url": "/project-playground/static/css/main.cbaa9f17.chunk.css"
   },
   {
-    "revision": "2e1d2d90c5f6f8b70ff8",
-    "url": "/project-playground/static/js/2.930c779a.chunk.js"
+    "revision": "7c9fb2db744066cf4557",
+    "url": "/project-playground/static/js/2.0e999c0f.chunk.js"
   },
   {
     "revision": "a3c66bc87fa121efed0250fdac2dfa2b",
-    "url": "/project-playground/static/js/2.930c779a.chunk.js.LICENSE.txt"
+    "url": "/project-playground/static/js/2.0e999c0f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d187a90ef7e43448054",
-    "url": "/project-playground/static/js/main.f2887aeb.chunk.js"
+    "revision": "499d0904ebd0738db9f0",
+    "url": "/project-playground/static/js/main.59550c3c.chunk.js"
   },
   {
     "revision": "22fed9e6f3680f6c0287",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6de7f5de345290e235611c29df18d74e",
     "url": "/project-playground/static/media/Mountains.6de7f5de.mp4"
+  },
+  {
+    "revision": "c04e12381ccffd6c4896c4a5edbf073c",
+    "url": "/project-playground/static/media/Rose_Benjamin_Resume.c04e1238.pdf"
   },
   {
     "revision": "550be808a1e25f5b4db6b66350270316",
@@ -86,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4f62228d4a9ede903f68dd42990cfdb7",
     "url": "/project-playground/static/media/js30_day19.4f62228d.jpeg"
+  },
+  {
+    "revision": "ae134cbae72389ca196143f9797320a3",
+    "url": "/project-playground/static/media/js30_day20.ae134cba.png"
   },
   {
     "revision": "02a4be8f5adb39664d43fbc7e47ae1af",
