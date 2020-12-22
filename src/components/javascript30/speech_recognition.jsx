@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import debounce from 'lodash.debounce';
+import resumePDF from '../../assets/Rose_Benjamin_Resume.pdf';
 
 const SpeechRecognition = () => {
   window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -25,9 +26,14 @@ const SpeechRecognition = () => {
         words.appendChild(p);
       }
 
-      if (transcript.includes('view portfolio')) {
-        debouncedOpen();
-        window.setTimeout(debouncedOpen.cancel, 500);
+      if (transcript.includes('visit portfolio')) {
+        debouncedOpenPortfolio();
+        window.setTimeout(debouncedOpenPortfolio.cancel, 500);
+      }
+
+      if (transcript.includes('view resume')) {
+        debouncedOpenResume();
+        window.setTimeout(debouncedOpenResume.cancel, 500);
       }
     }
 
@@ -36,7 +42,13 @@ const SpeechRecognition = () => {
       link.click();
     }
 
-    const debouncedOpen = debounce(openPortfolio, 300);
+    function openResume() {
+      const link = document.getElementById('resume');
+      link.click();
+    }
+
+    const debouncedOpenPortfolio = debounce(openPortfolio, 300);
+    const debouncedOpenResume = debounce(openResume, 300);
 
     recognition.addEventListener('result', speechHandler);
     recognition.addEventListener('end', recognition.start);
@@ -48,12 +60,13 @@ const SpeechRecognition = () => {
       recognition.removeEventListener('result', speechHandler);
       recognition.removeEventListener('end', recognition.start);
     }
-  });
+  }, [recognition]);
 
 
   return (
     <div className="content-container">
       <h1>Native Speech Recognition</h1>
+      <p>Try saying something to see it transcribed below! Hint: try saying "visit portfolio" or "view resumé"</p>
       <div className="words" contentEditable>
       </div>
       <a
@@ -63,6 +76,13 @@ const SpeechRecognition = () => {
         rel="noopener noreferrer"
         style={{display: 'none'}}
       >Portfolio</a>
+      <a
+        href={resumePDF}
+        id="resume"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{display: 'none'}}
+      >Resume</a>
     </div>
   )
 };
