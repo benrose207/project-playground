@@ -66,7 +66,8 @@ const SpeechRecognition = () => {
   return (
     <div className="content-container">
       <h1>Native Speech Recognition</h1>
-      <p>Try saying something to see it transcribed below! Hint: try saying "visit portfolio" or "view resumé"</p>
+      <p>Try saying something to see it transcribed below!</p>
+      <p>Hint: try saying "visit portfolio" or "view resumé" (you may need to disable your pop-up block for these to work)</p>
       <div className="words" contentEditable>
       </div>
       <a
