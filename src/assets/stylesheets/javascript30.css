@@ -749,3 +749,24 @@ input[type="checkbox"] {
   border: 1px solid;
   border-color: transparent #efe4e4;
 }
+
+/* Day 21: Geolocation-based Speedometer and Compass */
+.arrow {
+  width: 250px;
+  overflow: hidden;
+  transition: all 0.2s;
+  transform: rotate(0deg);
+  display: inline-block;
+}
+
+.speed {
+  color: white;
+  font-weight: 100;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.units {
+  font-size: 15px;
+}

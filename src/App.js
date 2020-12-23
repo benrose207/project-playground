@@ -24,6 +24,7 @@ import SortWithoutArticles from './components/javascript30/sort_without_articles
 import TallyTimesReduce from './components/javascript30/tally_times_reduce';
 import WebcamFun from './components/javascript30/webcam_fun';
 import SpeechRecognition from './components/javascript30/speech_recognition';
+import Geolocation from './components/javascript30/geolocation';
 import Footer from './components/navigation/footer';
 
 
@@ -61,6 +62,7 @@ const App = () => {
           <Route path="/javascript30/18" component={TallyTimesReduce}/>
           <Route path="/javascript30/19" component={WebcamFun}/>
           <Route path="/javascript30/20" component={SpeechRecognition}/>
+          <Route path="/javascript30/21" component={Geolocation}/>
         </Switch>
       </main>
       <Footer />

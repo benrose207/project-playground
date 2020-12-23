@@ -76,6 +76,7 @@ const JavaScript30 = () => {
         <Card img={day18Img} altText="List with times and total time" title="Day 18: Tally String Times with Reduce" path="/javascript30/18"/>
         <Card img={day19Img} altText="Selfie taken with webcam" title="Day 19: Unreal Webcam Fun" path="/javascript30/19"/>
         <Card img={day20Img} altText="Screenshot showing result of speech recognition" title="Day 20: Native Speech Recognition" path="/javascript30/20"/>
+        <Card img={day20Img} altText="Screenshot showing result of speech recognition" title="Day 21: Geolocation Speedometer & Compass" path="/javascript30/21"/>
       </section>
     </div>
   )
