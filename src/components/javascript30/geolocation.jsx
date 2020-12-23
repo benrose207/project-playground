@@ -8,17 +8,21 @@ const Geolocation = () => {
     const speed = document.querySelector('.speed');
     const text = document.querySelector('.compass-console');
 
-    navigator.geolocation.watchPosition((data) => {
-      text.textContent = `Speed: ${data.coords.speed}.  Heading: ${data.coords.heading}.`;
-
-      console.log(data.coords)
-
-      speed.textContent = data.coords.speed;
-      arrow.style.transform = `rotate(${data.coords.heading}deg)`;
-    }, (err) => {
-        console.err(err);
-        alert("Make sure you've enabled geolocation!");
-    });
+    if (navigator.geolocation) {
+      navigator.geolocation.watchPosition((data) => {
+        text.textContent = `Speed: ${data.coords.speed}.  Heading: ${data.coords.heading}.`;
+  
+        console.log(data.coords)
+  
+        speed.textContent = data.coords.speed;
+        arrow.style.transform = `rotate(${data.coords.heading}deg)`;
+      }, (err) => {
+          console.err(err);
+          alert("Make sure you've enabled geolocation!");
+      });
+    } else {
+      console.log('navigator is unavailable');
+    }
   }, [])
 
   return (
