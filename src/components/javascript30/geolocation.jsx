@@ -6,11 +6,12 @@ const Geolocation = () => {
   useEffect(() => {
     const arrow = document.querySelector('.arrow');
     const speed = document.querySelector('.speed');
+    const text = document.querySelector('.compass-console');
 
     navigator.geolocation.watchPosition((data) => {
+      text.textContent = `Speed: ${data.coords.speed}.  Heading: ${data.coords.heading}.`;
+
       console.log(data.coords)
-      console.log(data.coords.speed);
-      console.log(data.coords.heading);
 
       speed.textContent = data.coords.speed;
       arrow.style.transform = `rotate(${data.coords.heading}deg)`;
@@ -42,6 +43,7 @@ const Geolocation = () => {
           <span className="units">KM/H</span>
         </h2>
       </div>
+      <p className="compass-console"></p>
     </div>
   );
 };
