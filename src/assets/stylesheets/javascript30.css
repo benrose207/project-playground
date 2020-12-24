@@ -805,17 +805,20 @@ input[type="checkbox"] {
   border-radius: 20px;
 }
 
-.follow-along .highlight {
+.highlight {
   transition: all 0.2s;
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid white; */
+  border: 2px solid #8c35ff;
   position: absolute;
   top: 0;
-  background: white;
+  /* background: white; */
+  background: #ffff0024;
   left: 0;
-  z-index: -1;
+  /* z-index: -1; */
   border-radius: 20px;
   display: block;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  cursor: pointer;
 }
 
 .follow-along .menu {
@@ -823,7 +826,7 @@ input[type="checkbox"] {
   display: flex;
   list-style: none;
   justify-content: center;
-  margin:100px 0;
+  margin:50px 0;
 }
 
 .follow-along .menu a {
@@ -831,4 +834,5 @@ input[type="checkbox"] {
   padding: 5px;
   margin: 0 20px;
   color: black;
+  padding: 0.5rem;
 }
