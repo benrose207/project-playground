@@ -78,6 +78,7 @@ const JavaScript30 = () => {
         <Card img={day19Img} altText="Selfie taken with webcam" title="Day 19: Unreal Webcam Fun" path="/javascript30/19"/>
         <Card img={day20Img} altText="Screenshot showing result of speech recognition" title="Day 20: Native Speech Recognition" path="/javascript30/20"/>
         <Card img={day21Img} altText="Screenshot of compass and speedometer" title="Day 21: Geolocation Speedometer & Compass" path="/javascript30/21"/>
+        <Card img={day21Img} altText="Screenshot of compass and speedometer" title="Day 22: Follow Along Links" path="/javascript30/22"/>
       </section>
     </div>
   )

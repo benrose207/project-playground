@@ -788,3 +788,47 @@ input[type="checkbox"] {
   background-attachment: fixed;
   border-radius: 1rem;
 }
+
+/* Day 22: Follow Along Links */
+.follow-along .wrapper {
+  margin: 0 auto;
+  max-width: 500px;
+  font-size: 20px;
+  line-height: 2;
+  position: relative;
+}
+
+.follow-along a {
+  text-decoration: none;
+  color: black;
+  background: rgba(0,0,0,0.05);
+  border-radius: 20px;
+}
+
+.follow-along .highlight {
+  transition: all 0.2s;
+  border-bottom: 2px solid white;
+  position: absolute;
+  top: 0;
+  background: white;
+  left: 0;
+  z-index: -1;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.follow-along .menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin:100px 0;
+}
+
+.follow-along .menu a {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 20px;
+  color: black;
+}
