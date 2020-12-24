@@ -23,6 +23,10 @@ const FollowAlongLinks = () => {
     }
 
     triggers.forEach(a => a.addEventListener('mouseenter', highlightLink));
+
+    return () => {
+      triggers.forEach(a => a.removeEventListener('mouseenter', highlightLink));
+    }
   },[]);
 
   return (
