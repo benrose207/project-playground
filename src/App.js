@@ -26,6 +26,7 @@ import WebcamFun from './components/javascript30/webcam_fun';
 import SpeechRecognition from './components/javascript30/speech_recognition';
 import Geolocation from './components/javascript30/geolocation';
 import FollowAlongLinks from './components/javascript30/follow_along_links';
+import SpeechSynthesis from './components/javascript30/speech_synthesis';
 import Footer from './components/navigation/footer';
 
 
@@ -65,6 +66,7 @@ const App = () => {
           <Route path="/javascript30/20" component={SpeechRecognition}/>
           <Route path="/javascript30/21" component={Geolocation}/>
           <Route path="/javascript30/22" component={FollowAlongLinks}/>
+          <Route path="/javascript30/23" component={SpeechSynthesis}/>
         </Switch>
       </main>
       <Footer />
