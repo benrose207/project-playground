@@ -11,25 +11,25 @@ const SpeechSynthesis = () => {
   }, [])
 
   return (
-    <div className="content-container">
+    <div className="content-container speech-synth">
       <h1>Speech Synthesis</h1>
 
       <div className="voiceinator">
 
         <h2>The Voiceinator 5000</h2>
 
-        <select name="voice" id="voices">
+        <select name="voice" id="voices" aria-label="voices">
           <option value="">Select A Voice</option>
         </select>
 
         <label htmlFor="rate">Rate:</label>
-        <input name="rate" type="range" min="0" max="3" value="1" step="0.1" />
+        <input name="rate" type="range" min="0" max="3" defaultValue="1" step="0.1" id="rate" />
 
         <label htmlFor="pitch">Pitch:</label>
-        <input name="pitch" type="range" min="0" max="2" step="0.1" />
-          <textarea name="text">Hello! I love JavaScript</textarea>
-          <button id="stop">Stop!</button>
-          <button id="speak">Speak</button>
+        <input name="pitch" type="range" min="0" max="2" step="0.1" id="pitch" />
+        <textarea name="text" aria-label="textarea" defaultValue="Hello! I love JavaScript" />
+        <button id="stop">Stop!</button>
+        <button id="speak">Speak</button>
 
       </div>
     </div>
