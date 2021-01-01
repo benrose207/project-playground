@@ -854,13 +854,13 @@ input[type="checkbox"] {
   width: calc(100% + 4rem);
   margin: -2rem 0 2rem -2rem;
   padding: .5rem;
-  background: #ffc600;
-  border-bottom: 5px solid #F3C010;
+  background: #7105BE;
+  border-bottom: 5px solid #7105BE;
   text-align: center;
-  font-size: 5rem;
-  font-weight: 100;
-  font-family: 'Pacifico', cursive;
-  text-shadow: 3px 3px 0 #F3C010;
+  font-size: 3rem;
+  font-weight: 400;
+  text-shadow: 3px 3px 0 #7105BE;
+  color: white;
 }
 
 .voiceinator input,
@@ -872,30 +872,32 @@ input[type="checkbox"] {
   margin: 10px 0;
   padding: 10px;
   border: 0;
-  font-size: 2rem;
+  font-size: 1.3rem;
   background: #F7F7F7;
   outline: 0;
 }
 
-.voiceinator textarea {
-  height: 20rem;
+.voiceinator label {
+  font-size: 1.2rem;
 }
 
-.voiceinator input[type="select"] {
-
+.voiceinator textarea {
+  height: 14rem;
 }
 
 .voiceinator button {
-  background: #ffc600;
+  background: #7105BE;
   border: 0;
   width: 49%;
   float: left;
-  font-family: 'Pacifico', cursive;
   margin-bottom: 0;
   font-size: 2rem;
-  border-bottom: 5px solid #F3C010;
+  border-bottom: 5px solid #7105BE;
+  color: white;
   cursor: pointer;
   position: relative;
+  text-align: center;
+  border-radius: 0.5rem;
 }
 
 .voiceinator button:active {
