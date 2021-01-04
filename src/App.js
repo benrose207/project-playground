@@ -27,6 +27,7 @@ import SpeechRecognition from './components/javascript30/speech_recognition';
 import Geolocation from './components/javascript30/geolocation';
 import FollowAlongLinks from './components/javascript30/follow_along_links';
 import SpeechSynthesis from './components/javascript30/speech_synthesis';
+import StickyNav from './components/javascript30/sticky_nav';
 import Footer from './components/navigation/footer';
 
 
@@ -67,6 +68,7 @@ const App = () => {
           <Route path="/javascript30/21" component={Geolocation}/>
           <Route path="/javascript30/22" component={FollowAlongLinks}/>
           <Route path="/javascript30/23" component={SpeechSynthesis}/>
+          <Route path="/javascript30/24" component={StickyNav}/>
         </Switch>
       </main>
       <Footer />
