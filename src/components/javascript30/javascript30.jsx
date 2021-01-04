@@ -22,6 +22,7 @@ import day20Img from '../../assets/images/js30_day20.png';
 import day21Img from '../../assets/images/js30_day21.png';
 import day22Img from '../../assets/images/js30_day22.png';
 import day23Img from '../../assets/images/js30_day23.png';
+import day24Img from '../../assets/images/js30_day24.png';
 import '../../assets/stylesheets/javascript30.css';
 import Card from './card';
 
@@ -82,7 +83,7 @@ const JavaScript30 = () => {
         <Card img={day21Img} altText="Screenshot of compass and speedometer" title="Day 21: Geolocation Speedometer & Compass" path="/javascript30/21" />
         <Card img={day22Img} altText="Screenshot of links and lorem ipsem text" title="Day 22: Follow Along Links" path="/javascript30/22" />
         <Card img={day23Img} altText="Screenshot of speech synthesis app with controls" title="Day 23: Speech Synthesis" path="/javascript30/23" />
-        <Card img={day23Img} altText="Screenshot of speech synthesis app with controls" title="Day 24: Sticky Nav" path="/javascript30/24" />
+        <Card img={day24Img} altText="Screenshot of navbar" title="Day 24: Sticky Nav" path="/javascript30/24" />
       </section>
     </div>
   );
