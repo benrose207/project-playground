@@ -920,6 +920,10 @@ input[type="checkbox"] {
   transition: transform 0.5s;
 }
 
+.fixed-nav .site-wrap {
+  transform: scale(1);
+}
+
 .sticky-nav-header {
   text-align: center;
   height: 50vh;
@@ -945,6 +949,11 @@ input[type="checkbox"] {
   z-index: 1;
 }
 
+.fixed-nav #js30-sticky-nav {
+  position: fixed;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+}
+
 #js30-sticky-nav ul {
   margin: 0;
   padding:0;
@@ -960,13 +969,17 @@ input[type="checkbox"] {
   align-items: center;
 }
 
-#js30-sticky-nav li.logo {
+li.logo {
   max-width: 0;
   overflow: hidden;
   background: white;
-  transition: all .5s;
+  transition: all 1s;
   font-weight: 600;
   font-size: 30px;
+}
+
+.fixed-nav li.logo {
+  max-width: 500px;
 }
 
 #js30-sticky-nav li.logo a {

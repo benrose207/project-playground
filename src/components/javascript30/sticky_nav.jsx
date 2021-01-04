@@ -1,6 +1,30 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import debounce from '../utils/debounce';
 
 const StickyNav = () => {
+  useEffect(() => {
+    const nav = document.getElementById('js30-sticky-nav');
+    const topOfNav = nav.offsetTop;
+
+    function fixNav() {
+      if (window.scrollY >= topOfNav) {
+        document.body.style.paddingTop = `${nav.offsetHeight}px`;
+        document.body.classList.add('fixed-nav');
+      } else {
+        document.body.style.paddingTop = 0;
+        document.body.classList.remove('fixed-nav');
+      }
+    }
+
+    const debounceFixNav = debounce(fixNav);
+
+    window.addEventListener('scroll', debounceFixNav);
+    
+    return (() => {
+      window.removeEventListener('scroll', debounceFixNav);
+    })
+  }, []);
+
   return (
     <div className="content-container">
       <h1>Sticky Nav</h1>
