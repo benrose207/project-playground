@@ -994,3 +994,21 @@ li.logo {
   transition: all 0.2s;
   text-transform: uppercase;
 }
+
+/* Day 25: Event Capture, etc. */
+.event-capture div {
+  width: 100%;
+  padding: 100px;
+}
+
+.event-capture  .one {
+  background: thistle;
+}
+
+.event-capture  .two {
+  background: mistyrose;
+}
+
+.event-capture  .three {
+  background: coral;
+}
