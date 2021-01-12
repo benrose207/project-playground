@@ -29,6 +29,7 @@ import FollowAlongLinks from './components/javascript30/follow_along_links';
 import SpeechSynthesis from './components/javascript30/speech_synthesis';
 import StickyNav from './components/javascript30/sticky_nav';
 import EventCapture from './components/javascript30/event_capture';
+import StripeDropdown from './components/javascript30/stripe_dropdown';
 import Footer from './components/navigation/footer';
 
 
@@ -71,6 +72,7 @@ const App = () => {
           <Route path="/javascript30/23" component={SpeechSynthesis}/>
           <Route path="/javascript30/24" component={StickyNav}/>
           <Route path="/javascript30/25" component={EventCapture}/>
+          <Route path="/javascript30/26" component={StripeDropdown}/>
         </Switch>
       </main>
       <Footer />

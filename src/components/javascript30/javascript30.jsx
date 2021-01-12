@@ -86,6 +86,7 @@ const JavaScript30 = () => {
         <Card img={day23Img} altText="Screenshot of speech synthesis app with controls" title="Day 23: Speech Synthesis" path="/javascript30/23" />
         <Card img={day24Img} altText="Screenshot of navbar" title="Day 24: Sticky Nav" path="/javascript30/24" />
         <Card img={day25Img} altText="Screenshot of component title" title="Day 25: Event Capture, Bubbling, etc." path="/javascript30/25" />
+        <Card img={day25Img} altText="Screenshot of component title" title="Day 26: Stripe Follow-along Dropdown" path="/javascript30/26" />
       </section>
     </div>
   );
