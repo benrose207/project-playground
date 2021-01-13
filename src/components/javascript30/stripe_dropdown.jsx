@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const StripeDropdown = () => {
+  useEffect(() => {
+    
+  }, []);
+
   return (
     <div className="content-container stripe-dropdown">
       <h1>Stripe Follow-along Dropdown</h1>
