@@ -1014,9 +1014,17 @@ li.logo {
 }
 
 /* Day 26: Stripe Follow Along Dropdown */
+.stripe-dropdown {
+  background:#6b9bc483;
+  height: 600px;
+  width: 100%;
+  border-radius: 2rem;
+}
+
 .stripe-dropdown h2 {
   margin-top: 0;
   padding-top: .8em;
+  text-align: center;
 }
 
 .stripe-dropdown nav {
@@ -1049,7 +1057,7 @@ li.logo {
   justify-content: center;
 }
 
-.dropdown {
+.stripe-dropdown .dropdown {
   opacity: 0;
   position: absolute;
   overflow: hidden;
@@ -1070,7 +1078,7 @@ li.logo {
   opacity: 1;
 }
 
-.dropdownBackground {
+.stripe-dropdown .dropdownBackground {
   width: 100px;
   height: 100px;
   position: absolute;
@@ -1084,7 +1092,7 @@ li.logo {
   opacity:0;
 }
 
-.dropdownBackground.open {
+.stripe-dropdown .dropdownBackground.open {
   opacity: 1;
 }
 
@@ -1097,7 +1105,7 @@ li.logo {
   transform: translateY(-50%) rotate(45deg);
 }
 
-.bio {
+.stripe-dropdown .bio {
   min-width: 500px;
   display: flex;
   justify-content: center;
@@ -1105,27 +1113,31 @@ li.logo {
   line-height: 1.7;
 }
 
-.bio img {
+.stripe-dropdown .bio img {
   float: left;
   margin-right: 20px;
 }
 
-.courses {
+.stripe-dropdown .courses {
   min-width: 300px;
 }
 
-.courses li {
+.stripe-dropdown .courses li {
   padding: 10px 0;
   display: block;
   border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.dropdown a {
+.stripe-dropdown .code {
+  margin-right: 0.5rem;
+}
+
+.stripe-dropdown .dropdown a {
   text-decoration: none;
   color: #ffc600;
 }
 
-.stripe-dropdown a.button {
+.stripe-dropdown a.nav-button {
   background: black;
   display: block;
   padding: 10px;
@@ -1134,6 +1146,6 @@ li.logo {
 }
 
 /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
-.button[href*=twitter] { background: #019FE9; }
-.button[href*=facebook] { background: #3B5998; }
-.button[href*=courses] { background: #ffc600; }
+.stripe-dropdown .nav-button[href*=twitter] { background: #019FE9; }
+.stripe-dropdown .nav-button[href*=facebook] { background: #3B5998; }
+.stripe-dropdown .nav-button[href*=courses] { background: #ffc600; }
