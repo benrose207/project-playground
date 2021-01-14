@@ -1185,7 +1185,8 @@ li.logo {
   justify-content: center;
   font-size: 80px;
   font-weight: 100;
-  color: rgba(0,0,0,0.15);
+  /* color: rgba(0,0,0,0.15); */
+  color: #383838;
   box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15);
 }
 
@@ -1201,3 +1202,10 @@ li.logo {
 
 .itemJS27:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
 .itemJS27:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
+
+.click-drag-container {
+  width: 100%;
+  padding: 1.5rem;
+  background:#6b9bc483;
+  border-radius: 2rem;
+}
