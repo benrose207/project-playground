@@ -1197,8 +1197,8 @@ li.logo {
 .itemJS27:nth-child(9n+5) { background: cadetblue;}
 .itemJS27:nth-child(9n+6) { background: tomato;}
 .itemJS27:nth-child(9n+7) { background: lightcoral;}
-.itemJS27:nth-child(9n+8) { background: darkslateblue;}
-.itemJS27:nth-child(9n+9) { background: rebeccapurple;}
+.itemJS27:nth-child(9n+8) { background: rgb(139, 124, 238);}
+.itemJS27:nth-child(9n+9) { background: rgb(167, 97, 236);}
 
 .itemJS27:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
 .itemJS27:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }

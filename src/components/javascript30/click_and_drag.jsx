@@ -39,7 +39,7 @@ const ClickAndDrag = () => {
       <h1>Click and Drag to Scroll</h1>
 
       <div className="click-drag-container">
-        <div className="items">
+        <div className="items" tabIndex="0">
           <div className="itemJS27 item1">01</div>
           <div className="itemJS27 item2">02</div>
           <div className="itemJS27 item3">03</div>
