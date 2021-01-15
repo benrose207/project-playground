@@ -90,6 +90,7 @@ const JavaScript30 = () => {
         <Card img={day25Img} altText="Screenshot of component title" title="Day 25: Event Capture, Bubbling, etc." path="/javascript30/25" />
         <Card img={day26Img} altText="Screenshot of nav hovering" title="Day 26: Stripe Follow-along Dropdown" path="/javascript30/26" />
         <Card img={day27Img} altText="Screenshot of component title and scrollable accordion" title="Day 27: Click and Drag to Scroll" path="/javascript30/27" />
+        <Card img={day27Img} altText="Screenshot of component title and scrollable accordion" title="Day 28: Video Speed Controller" path="/javascript30/28" />
       </section>
     </div>
   );
