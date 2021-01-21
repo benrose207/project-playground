@@ -28,6 +28,7 @@ import day26Img from '../../assets/images/js30_day26.png';
 import day27Img from '../../assets/images/js30_day27.png';
 import day28Img from '../../assets/images/js30_day28.png';
 import day29Img from '../../assets/images/js30_day29.png';
+import day30Img from '../../assets/images/js30_day30.png';
 import '../../assets/stylesheets/javascript30.css';
 import Card from './card';
 
@@ -94,7 +95,7 @@ const JavaScript30 = () => {
         <Card img={day27Img} altText="Screenshot of component title and scrollable accordion" title="Day 27: Click and Drag to Scroll" path="/javascript30/27" />
         <Card img={day28Img} altText="Screenshot of video and speed controller" title="Day 28: Video Speed Controller" path="/javascript30/28" />
         <Card img={day29Img} altText="Countdown clock ticking down" title="Day 29: Countdown Clock" path="/javascript30/29" />
-        <Card img={day29Img} altText="Countdown clock ticking down" title="Day 30: Whack-A-Mole" path="/javascript30/30" />
+        <Card img={day30Img} altText="Whack-a-mole game in progress" title="Day 30: Whack-A-Mole" path="/javascript30/30" />
       </section>
     </div>
   );

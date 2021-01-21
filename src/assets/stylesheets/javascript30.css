@@ -1362,3 +1362,14 @@ li.logo {
 .hole.up .mole {
   top: 0;
 }
+
+.start-game {
+  width: 100px;
+  background: #F4B942;
+}
+
+.game-details {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #383838;
+}

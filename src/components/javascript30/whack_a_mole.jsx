@@ -63,9 +63,10 @@ const WhackAMole = () => {
 
   return (
     <div className="content-container">
-      <h1>Whack-A-Mole! <span className="score" ref={scoreBoard}>0</span></h1>
+      <h1>Whack-A-Mole!</h1>
+      <p className="game-details">Score: <span className="score" ref={scoreBoard}>0</span></p>
 
-      <button onClick={startGame}>Start!</button>
+      <button onClick={startGame} className="button start-game">Start!</button>
 
       <div className="game">
         <div className="hole hole1">
