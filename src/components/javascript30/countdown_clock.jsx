@@ -32,7 +32,7 @@ const CountdownClock = () => {
       const remainderSeconds = seconds % 60;
       const display = `${minutes}: ${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
 
-      document.title = display;
+      // document.title = display;
       timerDisplay.textContent = display;
     }
 
