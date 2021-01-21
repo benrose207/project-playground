@@ -78,7 +78,7 @@ const CountdownClock = () => {
           </form>
         </div>
           <div className="display">
-            <h2 className="display__time-left"></h2>
+            <p className="display__time-left"></p>
             <p className="display__end-time"></p>
           </div>
         </div>      
