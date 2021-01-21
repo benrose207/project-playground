@@ -27,6 +27,7 @@ import day25Img from '../../assets/images/js30_day25.png';
 import day26Img from '../../assets/images/js30_day26.png';
 import day27Img from '../../assets/images/js30_day27.png';
 import day28Img from '../../assets/images/js30_day28.png';
+import day29Img from '../../assets/images/js30_day29.png';
 import '../../assets/stylesheets/javascript30.css';
 import Card from './card';
 
@@ -92,7 +93,7 @@ const JavaScript30 = () => {
         <Card img={day26Img} altText="Screenshot of nav hovering" title="Day 26: Stripe Follow-along Dropdown" path="/javascript30/26" />
         <Card img={day27Img} altText="Screenshot of component title and scrollable accordion" title="Day 27: Click and Drag to Scroll" path="/javascript30/27" />
         <Card img={day28Img} altText="Screenshot of video and speed controller" title="Day 28: Video Speed Controller" path="/javascript30/28" />
-        <Card img={day28Img} altText="Screenshot of video and speed controller" title="Day 29: Countdown Clock" path="/javascript30/29" />
+        <Card img={day29Img} altText="Countdown clock ticking down" title="Day 29: Countdown Clock" path="/javascript30/29" />
       </section>
     </div>
   );
