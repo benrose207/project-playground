@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a609e132c2a39c606260f14933bdd8c0",
+    "revision": "05b6aa9862f3e532dd6b32a443479a01",
     "url": "/project-playground/index.html"
   },
   {
-    "revision": "7615be822147f8d402fa",
-    "url": "/project-playground/static/css/main.0b584fe5.chunk.css"
+    "revision": "4dddbec8b26efbadb6da",
+    "url": "/project-playground/static/css/main.8cc15f5a.chunk.css"
   },
   {
-    "revision": "2716a616422d4131ea2d",
-    "url": "/project-playground/static/js/2.fdcc4aba.chunk.js"
+    "revision": "62400c757f43121401e4",
+    "url": "/project-playground/static/js/2.d03dffe2.chunk.js"
   },
   {
     "revision": "a3c66bc87fa121efed0250fdac2dfa2b",
-    "url": "/project-playground/static/js/2.fdcc4aba.chunk.js.LICENSE.txt"
+    "url": "/project-playground/static/js/2.d03dffe2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7615be822147f8d402fa",
-    "url": "/project-playground/static/js/main.27af88cc.chunk.js"
+    "revision": "4dddbec8b26efbadb6da",
+    "url": "/project-playground/static/js/main.a378b63b.chunk.js"
   },
   {
     "revision": "22fed9e6f3680f6c0287",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c91b7e3b7302070e00f3bff64da42e84",
     "url": "/project-playground/static/media/clock.c91b7e3b.jpg"
+  },
+  {
+    "revision": "938a0913e59c818186f3663e2aa9eeb5",
+    "url": "/project-playground/static/media/dirt.938a0913.svg"
   },
   {
     "revision": "eae0deb3d6dd859a4732c4328066a38e",
@@ -136,6 +140,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-playground/static/media/js30_day3.02a4be8f.png"
   },
   {
+    "revision": "310e216b929a5c33fa37f4c4a1f13526",
+    "url": "/project-playground/static/media/js30_day30.310e216b.png"
+  },
+  {
     "revision": "f4fc89b4b5ab677a4c967c2b616e429a",
     "url": "/project-playground/static/media/js30_day4.f4fc89b4.png"
   },
@@ -162,6 +170,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4dd585951cfd8c9f78cf3241ec4bbb7d",
     "url": "/project-playground/static/media/kick.4dd58595.wav"
+  },
+  {
+    "revision": "33f3e860a3b9964534797a71e3285347",
+    "url": "/project-playground/static/media/mole.33f3e860.svg"
   },
   {
     "revision": "ae4e5eee878ca02e0b34f16d5924e6df",
