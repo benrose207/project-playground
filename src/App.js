@@ -33,6 +33,7 @@ import StripeDropdown from './components/javascript30/stripe_dropdown';
 import ClickAndDrag from './components/javascript30/click_and_drag';
 import VideoSpeedController from './components/javascript30/video_speed_controller';
 import CountdownClock from './components/javascript30/countdown_clock';
+import WhackAMole from './components/javascript30/whack_a_mole';
 import Footer from './components/navigation/footer';
 
 
@@ -79,6 +80,7 @@ const App = () => {
           <Route path="/javascript30/27" component={ClickAndDrag}/>
           <Route path="/javascript30/28" component={VideoSpeedController}/>
           <Route path="/javascript30/29" component={CountdownClock}/>
+          <Route path="/javascript30/30" component={WhackAMole}/>
         </Switch>
       </main>
       <Footer />
